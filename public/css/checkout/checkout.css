@@ -1,0 +1,30 @@
+main {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wizard-row {
+    margin: 50px 0 20px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.wizard-step {
+    text-align: center;
+}
+
+.wizard-step a {
+    font-size: 28px;
+    font-weight: 800;
+    color: #000000;
+    text-decoration: none;
+}
+
+.wizard-step .finished {
+    background: transparent url(../../img/checkout/checkmark.png) center left no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#checkout-main{
+    padding-top: 100px;
+}

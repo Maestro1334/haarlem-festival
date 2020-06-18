@@ -1,0 +1,78 @@
+/** Login and register styling **/
+.card.user-card {
+  margin: auto;
+  padding: 0 20px;
+  max-width: 400px;
+}
+
+.card.user-card .card-heading {
+  justify-content: center;
+}
+
+.card.user-card .card-heading .card-title {
+  font-size: 46px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card.user-card .card-heading .card-title:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid #6c757d;
+}
+
+.card.user-card .user-form {
+  width: 100%;
+}
+
+.user-form .label-text {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.user-form .text-box {
+  border-radius: 0;
+  border-color: #919191;
+}
+
+.user-form .form-group {
+  margin-bottom: 25px;
+}
+
+.user-form .btn-submit {
+  font-size: 27px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #92278F;
+  border-radius: 8px;
+}
+
+.user-form .btn-submit:hover {
+  color: #fff;
+  background-color: #d667d3;
+}
+
+.btn-change-form {
+  font-size: 26px;
+  font-weight: 500;
+  color: #92278F;
+  width: 400px;
+  border: #92278F 1px solid;
+  margin: 20px auto auto;
+}
+
+.btn-change-form:hover {
+  color: #fff;
+  background-color: #d667d3;
+}
+
+.btn-forgot-password {
+  color: #92278F;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 0;
+  padding-left: 0;
+}

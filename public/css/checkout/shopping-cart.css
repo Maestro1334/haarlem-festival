@@ -1,0 +1,171 @@
+.navblock {
+    background-color:rgba(146, 39, 143, 1);
+    height: 125px;
+}
+
+.information-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.information-row {
+    margin: 0;
+    padding: 0;
+}
+
+.product-list, .product-actions {
+    border: 1px solid #000000;
+}
+
+
+.product-actions {
+    padding: 10px;
+}
+
+
+/** Custom program Styling **/
+.program-row {
+    border: 1px solid #000000;
+    padding: 8px 0 8px 0;
+}
+
+.program-row {
+    font-size: 19px;
+}
+
+.program-row .program-artist {
+    font-style: italic;
+}
+
+.program-row .program-time, .program-location {
+    font-weight: 600;
+}
+
+.program-row .program-location {
+    text-align: right;
+}
+
+.program-nothing-planned {
+    margin-top: 40px;
+}
+
+.program-nothing-planned h3 {
+    text-align: center;
+    font-weight: 500;
+
+    padding: 0;
+}
+
+.program-buttons {
+    text-align: center;
+}
+
+.program-buttons a {
+    margin: 10px;
+}
+
+
+/** Product List Styling **/
+.product-list {
+    border-bottom: none;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* width */
+.product-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.product-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.product-list::-webkit-scrollbar-thumb {
+    background: #92278F;
+}
+
+/* Handle on hover */
+.product-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.product-row {
+    padding: 5px 0 5px 0;
+    margin: 0;
+
+    border-bottom: 1px solid #000000;
+}
+
+.product-information span::before {
+    content: "\200b";
+}
+
+.product-amount {
+    text-align: center;
+    padding: 0;
+}
+
+
+
+.product-amount-button {
+    background: #92278F;
+    border: none;
+    border-radius: 30px;
+
+    color: #ffffff;
+    font-weight: 600;
+
+    width: 30px;
+    height: 30px;
+}
+
+.product-amount-indicator {
+    color: #92278F;
+    padding: 2px;
+}
+
+/** Product Actions CSS **/
+.product-vat {
+    font-size: 24px;
+}
+
+.product-total {
+    font-size: 30px;
+}
+
+.product-actions hr {
+    background-color: #000000;
+}
+
+.btn-checkout {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/** Program Styling **/
+.program-day-toggle {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.program-day-toggle .nav-link.active {
+    background-color: #92278F !important;
+    color: #ffffff;
+    border: 1px solid #92278F;
+}
+
+
+.program-day-toggle .nav-link {
+    background-color: #ffffff !important;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -1,0 +1,249 @@
+#checkout-main{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+/** Containers **/
+.payment-container{
+  max-width: 1420px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/** Payment choice buttons **/
+.purple-block{
+  background-color: #92278F;
+  height: 100%;
+}
+
+#payment-block{
+  background-color: #fff;
+  border: 1px solid #777777;
+  height: 666px;
+  width: 858px;
+}
+
+#payment-block .nav{
+  padding: 0;
+}
+
+#payment-block .nav .nav-item{
+  max-height: 70px;
+}
+
+#payment-block .nav .nav-item .nav-link {
+  height: 70px;
+  border-bottom: 1px solid #797979;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-style:normal;
+  padding: 0;
+  margin: 0;
+}
+
+#payment-block .nav .nav-item .nav-link.active {
+  background-color: #800080;
+  border: 1px solid #92278F;
+}
+
+#payment-block .nav .nav-item .nav-link:hover {
+
+}
+
+/* Choice buttons*/
+#button-ideal{
+  margin-top: -4px;
+  max-height: 76px;
+  max-width: 76px;
+}
+
+#button-mastercard{
+  margin-top: -7px;
+  max-height: 82px;
+  max-width: 100px;
+}
+
+#button-paypal{
+  margin-top: 15px;
+  max-height: 41px;
+  max-width: 150px;
+}
+
+#button-invoice{
+  padding-top: 20px;
+}
+
+#invoice-button li{
+  padding-top: 20px;
+  font-weight:700;
+  font-size: 18px;
+  font-style:normal;
+  color: #fff;
+}
+
+/** Ideal choice **/
+#ideal-block{
+  height: 571px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+#ideal-block p{
+  font-size: 18px;
+}
+
+/** Creditcard choice **/
+#creditcard-block{
+  height: 571px;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+#creditcard-block label{
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.payment-dateB{
+  width: 200px;
+}
+
+.payment-date{
+  width: 50px;
+}
+
+/** Paypal choice **/
+#paypal-block{
+  height: 571px;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+/** Invoice choice **/
+#invoice-block{
+  height: 571px;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+#invoice-block label{
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+#invoice-block p{
+  margin: 0;
+  padding: 0;
+}
+
+/** Choice buttons pay **/
+.button-pay{
+  width: 100%;
+  height: 71px;
+  font-weight:700;
+  font-size: 42px;
+  border: 1px solid #797979;
+  border-radius: 0;
+}
+
+/** Shopping cart **/
+#shopping-cart{
+  height: 666px;
+  width: 400px;
+  margin-left: 75px;
+  border: 1px solid #797979;
+}
+
+#shopping-cart-block{
+  width: 100%;
+  height: 87px;
+  background-color:rgba(146, 39, 143, 1);
+  font-size: 36px;
+  margin: auto;
+}
+
+#shopping-cart-block p {
+  font-size: 36px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.ticket-text, .ticket-amount{
+  font-size: 12px;
+}
+
+.ticket-price{
+  font-size: 18px;
+  padding-top: 7px;
+  float: right;
+  padding-right: 10px;
+}
+
+.shopping-cart-ticket{
+  border-bottom: 1px solid #797979;
+  width: 100%;
+  height: 44px;
+}
+
+.ticket-amount{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ticket-text{
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.price-total{
+  float: right;
+  font-size: 28px;
+  padding-right: 15px;
+}
+
+.cart-total{
+  border-top: 1px solid #797979;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.total-p{
+  font-size: 28px;
+  float: left;
+  padding-left: 15px;
+}
+
+.input-container{
+  margin-bottom: 30px;
+}
+
+.ticket-container{
+  height: 510px;
+  overflow-y: scroll;
+}
+
+/* width */
+.ticket-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.ticket-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.ticket-container::-webkit-scrollbar-thumb {
+  background: #92278F;
+}
+
+/* Handle on hover */
+.ticket-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+

@@ -1,0 +1,180 @@
+/*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');*/
+
+
+/* Making the footer stick to the bottom*/
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+
+/* Navigation */
+
+nav.navbar {
+  padding: 0;
+  width: 100%;
+}
+
+nav.navbar div.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2px;
+  max-width: 100%;
+  border-bottom: 2px solid #ffffff;
+  padding: 0;
+}
+
+nav .navbar-brand img {
+  max-width: 150px;
+  max-height: 100px;
+}
+
+nav .navbar-collapse {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+nav .navbar-collapse.show {
+  font-size: 24px;
+}
+
+nav .dropdown-toggle::after {
+  content: none;
+}
+
+#navbarNav ul li.nav-item a {
+  color: #ffffff;
+  padding-bottom: 0;
+}
+
+#navbarNav ul li.nav-item a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+#navbarNav ul li.nav-item.active a,
+#navbarNav ul li.nav-item.active a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+#navbarNav ul li.nav-item div.dropdown-menu a {
+  color: #000000;
+}
+
+nav.navbar.fixed-top.shrink {
+  background: #92278F;
+  height: 80px;
+}
+
+nav.navbar.fixed-top.shrink div.container {
+  height: inherit;
+}
+
+nav.navbar.fixed-top.shrink a img {
+  max-height: 70px;
+}
+
+nav.navbar.fixed-top.shrink .navbar-collapse {
+  font-size: 32px;
+}
+
+#navigation.colored-background {
+  background-color: #92278F;
+}
+
+
+/* Footer */
+
+footer {
+  height: 230px;
+  background-color: #92278F;
+  color: #ffffff;
+}
+
+footer div.row {
+  margin: 0;
+}
+
+footer .social-link {
+  color: #ffffff;
+  font-size: 56px;
+}
+
+footer p#footer-follow-us {
+  font-weight: 300;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: -10px;
+}
+
+footer p#footer-social-media {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+
+/** Button Styling **/
+
+.btn-default {
+  background-color: #92278F;
+  color: #ffffff;
+}
+
+.btn-default:disabled {
+  background-color: #808080;
+  color: #FFFFFF;
+}
+
+.btn-default:hover,
+.btn-default:hover:enabled {
+  background-color: #ffffff;
+  color: #92278F;
+  border: 1px solid #92278F;
+}
+
+.tag-default {
+  background-color: #92278F;
+  color: #ffffff;
+}
+
+.tag-default:hover {
+  background-color: #ffffff;
+  color: #92278F;
+  border: 1px solid #92278F;
+}
+
+
+/** Search Styling **/
+
+.btn-search {
+  background-color: #92278F;
+  color: #ffffff;
+  border: 1px solid #ced4da;
+}
+
+.btn-search:hover {
+  background-color: #ffffff;
+  color: #92278F;
+  border: 1px solid #ced4da;
+}
+
+
+/** Cookie bar styling **/

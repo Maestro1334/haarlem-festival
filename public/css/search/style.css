@@ -1,0 +1,67 @@
+#search-main{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#search-value-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000000;
+}
+
+#search-value {
+    font-weight: 400;
+}
+
+.search-result-row-headers {
+    color: #92278F;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+
+
+}
+
+.search-result-row {
+    border-bottom: 1px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    line-height: inherit;
+}
+
+.search-result-row .category {
+
+}
+
+.search-result-row .btn-view-ticket {
+    background-color: #92278F;
+    color: #ffffff;
+}
+
+
+/** Nothing found Styling **/
+#search-nothing-found-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    padding: 20px;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#search-new-term {
+    margin-top: 30px;
+}
+
+.btn-search {
+    background-color: #92278F;
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    background-color: #ffffff;
+    color: #92278F;
+    border: 1px solid #ced4da;
+}

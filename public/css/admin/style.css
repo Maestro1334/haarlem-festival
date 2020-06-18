@@ -1,0 +1,181 @@
+/* Login styles */
+
+button.login {
+  background-color: #92278F;
+  color: #ffffff;
+  width: 7em;
+  box-shadow: 3px 3px 2px #888888;
+}
+
+button.login:hover {
+  color: lightgray;
+  background-color: #792076;
+}
+
+/* Other styles*/
+.sidebar {
+  padding: 48px 0 0;
+  margin-top: 30px;
+  background-color: #330033;
+  color: white;
+  font-size: 1.5em;
+}
+
+.sidebar-sticky {
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+ul.nav {
+  list-style-type: none;
+}
+
+a.nav-link {
+  color: white;
+}
+
+.main {
+  padding-top: 60px;
+}
+
+.cover-image-thumbnail{
+  max-width: 200px;
+}
+
+.navbar {
+  height: 4em;
+  border-bottom: 2px solid #808080;
+}
+
+li.nav-item {
+  margin-left: 20px;
+}
+
+img.logo {
+  height: 50px;
+  width: auto;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+table.users{
+  border: 1px solid #333333;
+}
+
+td.users{
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+td.users-action{
+  border-top: 1px solid #333333;
+}
+
+a.users{
+  margin-bottom: 10px;
+  width: 120px;
+}
+
+table tbody tr td .trash{
+  color: red;
+}
+
+li.sub{
+  margin-left: 50px;
+}
+
+button.drop {
+  width: 100%;
+  text-align: left;
+}
+
+ul.dropdown-menu {
+  font-size: 1.2em;
+  padding-left: 5px;
+  color: #333333;
+}
+
+div.row{
+  overflow-x: hidden;
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+img.banner {
+  width: 100%;
+}
+
+.header-title h3 {
+    margin: 0;
+    padding: 0;
+
+    color: #ffffff;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 900;
+
+    width: 100%;
+}
+
+.header-title p {
+  margin: 0;
+  padding: 0;
+
+  color: #ffffff;
+  font-size: 2vw;
+  font-style: normal;
+
+  width: 100%;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+}
+
+
+
+input.save-text {
+  width: 150px;
+}
+
+a.cancel-text {
+  width: 150px;
+}
+
+#imageDisplay { 
+  height: 100px; 
+  width: auto; 
+  margin-bottom: 5px;
+}
+
+span.img-div {
+  height: 100px; 
+  width: auto; 
+  margin-bottom: 5px;
+  display: block;
+}
+
+textarea.long_des {
+  height: 150px;
+}
+
+

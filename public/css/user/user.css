@@ -1,0 +1,70 @@
+.content-register section {
+  margin-top: 150px;
+}
+
+.content-login section {
+  margin-top: 150px;
+}
+
+.content-forgot-password section {
+  margin-top: 150px;
+}
+
+.content-forgot-password section .card.user-card .card-heading .card-title {
+  font-size: 40px;
+}
+
+.content-reset-password section {
+  margin-top: 150px;
+}
+
+.content-reset-password section .card.user-card .card-heading .card-title {
+  font-size: 40px;
+}
+
+
+/* Account CSS */
+.account-profile {
+  text-align: center;
+  margin-top: 160px;
+  overflow: hidden;
+}
+
+#account-title {
+  font-weight: 600;
+  font-style: italic;
+
+  margin: auto auto 20px;
+
+  border-bottom: 1px solid #000000;
+  width: 40%;
+}
+
+.program-nothing-planned {
+  max-width: 800px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.program-nothing-planned h3 {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.program-buttons a {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.invoice-pdf-container {
+  margin-left: 400px;
+  margin-right: 400px;
+  height: 550px;
+  margin-bottom: 30px;
+}
+
+.invoice-pdf {
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #000000;
+}

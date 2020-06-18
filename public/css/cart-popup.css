@@ -1,0 +1,105 @@
+/** Cart Modal styling **/
+
+#cart-modal .modal-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cart-modal .modal-header {
+  border-bottom: 1px solid #000000;
+  padding: 15px 5px 5px 5px;
+}
+
+#cart-modal #ticket-type {
+  border: 1px solid #000000;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+#cart-modal #ticket-title {
+  font-size: 20px;
+}
+
+#cart-modal #ticket-date {
+  font-size: 15px;
+}
+
+#cart-modal .ticket-checkout button {
+  height: 100%;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#cart-modal .second-row {
+  margin-top: 10px;
+}
+
+#cart-modal .ticket-continue button {
+  height: 52px;
+  background-color: #92278F;
+  color: white;
+  border: 1px solid #92278F;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#cart-modal .product-amount-button {
+  background: #92278F;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+}
+
+#cart-modal .product-amount-col {
+  padding: 0;
+}
+
+#cart-modal .product-amount-field {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: 4px;
+  width: 43%;
+  text-align: center;
+  font-size: 13px;
+}
+
+#cart-modal .product-amount-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#cart-modal .modal-footer #cross-selling-text {
+  font-size: 28px;
+}
+
+#cart-modal .modal-footer .cross-selling-blocks .cross-selling-block {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#cart-modal .modal-footer .cross-selling-blocks .cross-selling-block .card .card-body p {
+  font-size: 18px;
+}
+
+#cart-modal .modal-footer .cross-selling-blocks .cross-selling-block .card .card-footer {
+  border-top: none;
+  background-color: #ffffff;
+}
+
+#cart-modal .modal-footer .cross-selling-blocks .cross-selling-block .card .card-footer a.btn.btn-default {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}

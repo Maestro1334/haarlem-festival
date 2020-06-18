@@ -1,0 +1,371 @@
+/** Header **/
+.header-container {
+  position: relative;
+  padding: 0;
+  height: 500px;
+  background: #92278F;
+}
+
+#top-of-page{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jazz-content{
+  max-width: 1420px;
+  margin: auto;
+}
+
+#header-image {
+  width: 100%;
+  height: 500px;
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title h1 {
+  color: #fff;
+  font-size: 6.771vw;
+  font-weight: 900;
+  text-shadow:2px 2px 0 rgba(0, 0, 0, 0.647058823529412);
+}
+
+.header-title h2 {
+  color: #fff;
+  font-size: 3.646vw;
+  font-weight: 900;
+  text-shadow:2px 2px 0 rgba(0, 0, 0, 0.647058823529412);
+}
+
+#header-ad{
+  position: absolute;
+  color: #fff;
+  top: 70%;
+  right: 3%;
+  width: 17vw;
+  margin-left: 50px;
+}
+
+#header-ad p{
+  line-height: 80%;
+  font-size: 2.5vw;
+  font-weight: 600;
+  text-shadow:2px 2px 0 rgba(0, 0, 0, 0.647058823529412);
+}
+
+/** jazz sticky navigation**/
+#jazz-navigation{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 40%;
+}
+
+#jazz-navigation ul{
+  width: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:rgba(51, 51, 51, 1);
+}
+
+#jazz-navigation ul li{
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 1);
+}
+
+#jazz-navigation ul a{
+  font-size:28px;
+  color:#FFFFFF;
+}
+
+#jazz-navigation ul li:hover{
+  background-color:rgba(81, 81, 81, 1);
+}
+
+/** jazz Buttons Section **/
+#jazz-buttons-container{
+  background: #92278F;
+}
+
+#jazz-buttons-container hr{
+  width: 1200px;
+  color: #FFFFFF;
+  border-top: solid;
+  margin: 50px auto auto;
+}
+
+#jazz-text{
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.458vw;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 120%;
+}
+
+.jazz-buttons-pt{
+  padding-top: 50px;
+}
+
+.jazz-button-default{
+  width: 100%;
+  background-color:rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  font-weight:700;
+  color:#92278F;
+}
+
+.jazz-button-default:hover{
+  background-color:rgba(204, 255, 255, 1);
+  color:#92278F;
+}
+
+.jazz-button-small{
+  height: 150px;
+  font-size:48px;
+}
+
+.jazz-button-large{
+  height: 214px;
+  font-size:90px;
+}
+
+.jazz-button-border-right{
+  border-right: 0;
+}
+
+.jazz-button-border-left{
+  border-left: 0;
+}
+
+/** jazz Program Section **/
+#jazz-program-container{
+  background: #92278F;
+  padding-bottom: 50px;
+}
+
+.jazz-title{
+  margin: 0;
+  padding: 30px 0 0;
+  font-weight:700;
+  font-style:normal;
+  font-size:99px;
+  color:#FFFFFF;
+}
+
+.jazz-program-day{
+  font-weight:400;
+  font-style:normal;
+  font-size:70px;
+  color:#FFFFFF;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.jazz-program-location{
+  font-weight:700;
+  font-style:normal;
+  font-size:36px;
+  color:#FFFFFF;
+  margin: 0;
+  padding: 5px 0 0;
+}
+
+.jazz-program-event{
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#FFFFFF;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+}
+
+/** jazz Tickets Section **/
+#jazz-tickets-container{
+  background: #FFFFFF;
+  padding-bottom: 288px;
+}
+
+#filter-block{
+  position: absolute;
+  margin: 80px 0 0 -15px;
+}
+
+#filter-block input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #000;
+}
+
+#jazz-tickets-container h2{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 99px;
+  color: #000000;
+}
+
+#jazz-tickets-container hr{
+  width: 1200px;
+  color: #000000;
+  border-top: solid;
+  margin: 30px auto auto;
+}
+
+.ticket-day-toggle .nav-link.active {
+  background-color: #92278F !important;
+  border: 1px solid #92278F;
+  color: #ffffff;
+}
+
+.ticket-day-toggle .nav-link {
+  height: 126px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 10px;
+}
+
+.ticket-day-toggle .nav-link:hover{
+  background-color:rgba(204, 255, 255, 1);
+}
+
+.jazz-ticket-table{
+  width: 100%;
+}
+
+.jazz-ticket-table tr{
+  height: 75px;
+  border: 1px solid #000;
+  border-top: 0;
+}
+
+.jazz-ticket-time{
+  font-size: 40px;
+  padding: 0 20px;
+  width: 240px;
+}
+
+.jazz-ticket-location{
+  font-size: 20px;
+  width: 200px;
+  padding-right: 10px;
+}
+
+.jazz-ticket-artist{
+  font-size: 28px;
+  width: 580px;
+}
+
+.jazz-ticket-price{
+  width: 170px;
+  font-size: 36px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.jazz-button-buy{
+  width:184px;
+  height:55px;
+  border: 1px solid rgba(121, 121, 121, 1);
+  font-size:28px;
+  color:#FFFFFF;
+  margin: 0 -100px 0 40px;
+}
+
+.jazz-button-available{
+  background-color:rgba(146, 39, 143, 1);
+}
+
+.jazz-button-sold-out{
+  background-color: #808080;
+}
+
+.jazz-button-available:hover{
+  background-color:rgba(173, 7, 177, 1);
+}
+
+.ticket-free-text{
+  font-size: 36px;
+  line-height: 50%;
+  padding-top: 20px;
+}
+
+.ticket-free-text span{
+  font-size: 20px;
+}
+
+#jazz-lineup-container{
+  background: #92278F;
+}
+
+#jazz-lineup-container hr{
+  width: 1200px;
+  color: #FFFFFF;
+  border-bottom: solid;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.jazz-lineup-name{
+  text-transform: uppercase;
+  background: #FFF;
+  border: 1px solid #000;
+  width: 460px;
+  height: 50px;
+  margin: 0;
+  font-size: 36px;
+}
+
+#jazz-tickets-container span{
+  white-space: nowrap;
+}
+
+.jazz-lineup-img{
+  height: 300px;
+  width: 460px;
+}
+
+/** jazz Patronaat Section **/
+#jazz-patronaat-container{
+  margin-top: 40px;
+  padding-bottom: 23px;
+}
+
+.jazz-patronaat-text{
+  font-size: 36px;
+  line-height: 130%;
+}
+
+/** jazz Other **/
+.footer{
+  background: #92278F;
+  height: 232px;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.jazz-icon-size{
+  height: 62px;
+  width: 62px;
+}
+
+.jazz-ad{
+  padding-top: 30px;
+}

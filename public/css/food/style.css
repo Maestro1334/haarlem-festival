@@ -1,0 +1,332 @@
+main {
+  background-color: #333333;
+}
+
+header {
+  overflow: hidden;
+}
+
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#header-image {
+  width: 100%;
+  height: 100%;
+}
+
+.header-title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -45%);
+}
+
+.header-title p {
+  font-weight: 900;
+  font-size: 72px;
+  color: #ffffff;
+  margin: 0;
+  line-height: 96px;
+}
+
+#info p {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 2%;
+}
+
+#info p:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+}
+
+
+/* #restaurants-overview {
+  max-width: 85%;
+} */
+
+.restaurant {
+  margin-top: 15px;
+}
+
+.restaurant .card {
+  border: none;
+  border-radius: 0;
+}
+
+.restaurant .card .card-body {
+  padding: 0;
+}
+
+.restaurant .card .card-body hr {
+  border-top: 1px solid #000000;
+  margin: 5px 10px;
+}
+
+.restaurant .card .card-body p {
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+.restaurant img.restaurant-image {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  border-radius: 0;
+}
+
+.restaurant .card .card-body header {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.restaurant .card .card-body header .restaurant-name {
+  font-size: 32px;
+  margin: 0;
+}
+
+.restaurant .card .card-body header .restaurant-type {
+  font-size: 20px;
+  margin: 0;
+}
+
+.restaurant .card .card-footer {
+  padding: 10px 0;
+  margin: 0;
+  border: none;
+}
+
+.restaurant .card .card-footer::before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+}
+
+.restaurant .card .card-footer span {
+  font-size: 28px;
+}
+
+.restaurant .card .card-footer a.btn {
+  font-size: 28px;
+  color: #92278F;
+  border: 1px solid #92278F;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.restaurant .card .card-footer a.btn:hover {
+  background-color: #e5b7e4;
+  border: 1px solid #e879e5;
+}
+
+
+/* FILTER */
+
+#dropdownFilterRestaurants {
+  margin-left: 15px;
+  border-radius: 0;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#type-dropdown .btn-filter-selector {
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
+#type-dropdown li label {
+  margin-left: 10px;
+}
+
+#type-dropdown li label input {
+  margin-right: 5px;
+}
+
+#no-restaurants {
+  height: 25vh;
+  min-height: 100px;
+  display: none;
+}
+
+#no-restaurants p {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+/* FILTER */
+#dropdownFilterRestaurants {
+  margin-left: 15px;
+  border-radius: 0;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#type-dropdown .btn-filter-selector {
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
+#type-dropdown li label {
+  margin-left: 10px;
+}
+
+#type-dropdown li label input {
+  margin-right: 5px;
+}
+
+#no-restaurants {
+  height: 25vh;
+  min-height: 100px;
+  display: none;
+}
+
+#no-restaurants p {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+@media (max-width: 991.98px) {
+  .header-title p {
+    font-size: 48px;
+    line-height: normal;
+  }
+  #restaurants-overview {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #info p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  #restaurants-overview {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header-title p {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .restaurant .bottom-row span,
+  .restaurant .bottom-row a {
+    font-size: 24px;
+  }
+  #info p {
+    font-size: 16px;
+  }
+}
+
+
+/* Restaurant Detail page */
+
+.details .header-title p.restaurant-type {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 500;
+}
+
+#restaurant-info .restaurant-image {
+  width: 100%;
+}
+
+#restaurant-info .short-description:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.btn.back-btn {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+#description p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.restaurant-location {
+  padding-top: 15px;
+}
+
+.restaurant-location h2 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#tickets-table {
+  background-color: #ffffff;
+  margin-left: 15px;
+}
+
+#tickets-table thead {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#tickets-table thead tr th {
+  border: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#tickets-table tbody tr td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  border-top: 2px solid #777777;
+}
+
+#tickets-table tbody tr:first-of-type td {
+  border-top: 2px solid transparent;
+}
+
+.btn.btn-buy-ticket {
+  padding: 1px 10px;
+  font-weight: 500;
+  position: relative;
+  top: -3px;
+}
+
+.extra-information .allergies-question,
+.extra-information .additional-info {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#allergy-input {
+  width: 100%;
+}
